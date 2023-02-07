@@ -27,6 +27,20 @@
          list-style: none;
          margin: 0;
          padding: 0;
+         .title {
+            text-transform: uppercase;
+            font-weight: bold;
+            font-size: 0.625rem;
+            color: rgb(211, 211, 211);
+            margin-top: 0.938rem;
+            margin-bottom: 0.313rem;
+         }
+         li {
+            display: flex;
+            align-items: center;
+            padding: 0.313rem;
+            cursor: pointer;
+         }
       }
    }
 }

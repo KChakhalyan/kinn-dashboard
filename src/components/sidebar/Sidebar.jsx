@@ -21,52 +21,56 @@ const Sidebar = () => {
          <hr />
          <div className="center">
             <ul>
+               <p class="title">Main</p>
                <li>
-                  <DashboardIcon />
+                  <DashboardIcon className="icon" />
                   <span>Dashboard</span>
                </li>
                <li>
-                  <GroupIcon />
+                  <GroupIcon className="icon" />
                   <span>Users</span>
                </li>
                <li>
-                  <StoreIcon />
+                  <StoreIcon className="icon" />
                   <span>Products</span>
                </li>
                <li>
-                  <CreditCardIcon />
+                  <CreditCardIcon className="icon" />
                   <span>Orders</span>
                </li>
                <li>
-                  <LocalShippingIcon />
+                  <LocalShippingIcon className="icon" />
                   <span>Delivery</span>
                </li>
+               <p class="title">Lists</p>
                <li>
-                  <InsertChartIcon />
+                  <InsertChartIcon className="icon" />
                   <span>Stats</span>
                </li>
                <li>
-                  <NotificationsIcon />
+                  <NotificationsIcon className="icon" />
                   <span>Notifications</span>
                </li>
+               <p class="title">Services</p>
                <li>
-                  <MonitorHeartIcon />
+                  <MonitorHeartIcon className="icon" />
                   <span>System Helth</span>
                </li>
                <li>
-                  <PsychologyIcon />
+                  <PsychologyIcon className="icon" />
                   <span>Logs</span>
                </li>
                <li>
-                  <SettingsIcon />
+                  <SettingsIcon className="icon" />
                   <span>Settings</span>
                </li>
+               <p class="title">User</p>
                <li>
-                  <AccountCircleIcon />
+                  <AccountCircleIcon className="icon" />
                   <span>Profile</span>
                </li>
                <li>
-                  <LogoutIcon />
+                  <LogoutIcon className="icon" />
                   <span>Log Out</span>
                </li>
             </ul>
