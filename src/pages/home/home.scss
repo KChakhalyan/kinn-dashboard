@@ -4,10 +4,15 @@
    .container {
       flex: 6;
 
-      .widgets_container {
+      .widgets_container,
+      .charts_container {
          display: flex;
          padding: 1.25rem;
          gap: 1.25rem;
+      }
+
+      .charts_container {
+         padding: 0.313rem 1.25rem;
       }
    }
 }
