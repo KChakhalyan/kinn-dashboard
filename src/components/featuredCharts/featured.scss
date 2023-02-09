@@ -16,4 +16,58 @@
          font-weight: 500;
       }
    }
+
+   .bottom {
+      padding: 1rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
+
+      .featured-chart {
+         width: 100px;
+         height: 100px;
+      }
+      .chart_title {
+         font-weight: 500;
+         color: rgb(85, 85, 85);
+      }
+      .amount {
+         font-size: 2rem;
+         color: rgb(74, 74, 74);
+      }
+      .desc {
+         font-weight: 300;
+         color: rgb(145, 145, 145);
+         font-size: 0.875rem;
+      }
+
+      .summary {
+         width: 100%;
+         display: flex;
+         align-items: center;
+         justify-content: space-between;
+         .summary-item {
+            text-align: center;
+            .item-title {
+               font-size: 0.875rem;
+               color: rgb(145, 145, 145);
+            }
+            .item-result {
+               display: flex;
+               align-items: center;
+               margin-top: 0.625rem;
+               font-size: 0.875rem;
+
+               &.positive {
+                  color: rgb(40, 138, 40);
+               }
+               &.negative {
+                  color: rgb(216, 43, 27);
+               }
+            }
+         }
+      }
+   }
 }
