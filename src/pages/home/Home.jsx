@@ -9,10 +9,10 @@ const Home = () => {
          <div className="container">
             <Navbar />
             <div className="widgets_container">
-               <Widget />
-               <Widget />
-               <Widget />
-               <Widget />
+               <Widget type="users" />
+               <Widget type="orders" />
+               <Widget type="earnings" />
+               <Widget type="balance" />
             </div>
          </div>
       </div>
