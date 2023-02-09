@@ -1,5 +1,7 @@
 import "./featured.scss";
 import MoreVertOutlinedIcon from "@mui/icons-material/MoreVertOutlined";
+import { CircularProgressbar } from "react-circular-progressbar";
+import "react-circular-progressbar/dist/styles.css";
 
 const Featured = () => {
    return (
@@ -9,7 +11,10 @@ const Featured = () => {
             <MoreVertOutlinedIcon fontSize="small" />
          </div>
          <div className="bottom">
-            <div className="featured-chart"></div>
+            <div className="featured-chart">
+               <CircularProgressbar value={70} text={"70%"} strokeWidth={3} />
+            </div>
+            <p></p>
          </div>
       </div>
    );
