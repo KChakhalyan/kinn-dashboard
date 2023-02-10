@@ -4,6 +4,8 @@ import Sidebar from "../../components/sidebar/Sidebar";
 import Widget from "../../components/widget/Widget";
 import Featured from "../../components/featuredCharts/Featured";
 import Chart from "../../components/chart/Chart";
+import List from "../../components/list/List";
+
 const Home = () => {
    return (
       <div className="home">
@@ -22,6 +24,7 @@ const Home = () => {
             </div>
             <div className="list-container">
                <div className="list-title">Latest transactions</div>
+               <List />
             </div>
          </div>
       </div>

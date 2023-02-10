@@ -1,0 +1,34 @@
+.list {
+   .cell-wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      img {
+         width: 32px;
+         height: 32px;
+         object-fit: cover;
+         margin-right: 0.5rem;
+         border: 1px solid rgb(229, 229, 229);
+         border-radius: 0.25rem;
+      }
+      span {
+         flex: 3;
+         align-items: center;
+         justify-content: center;
+      }
+   }
+   .status {
+      padding: 0.313rem;
+      border-radius: 0.313rem;
+
+      &.Approved {
+         color: rgb(8, 142, 8);
+         background-color: rgba(8, 142, 8, 0.242);
+      }
+      &.Pending {
+         color: rgb(171, 140, 18);
+         background-color: rgba(255, 200, 0, 0.242);
+      }
+   }
+}
