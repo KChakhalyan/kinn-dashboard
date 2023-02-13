@@ -47,7 +47,7 @@ const List = () => {
          date: "1 March",
          amount: 920,
          method: "Online",
-         status: "Approved",
+         status: "Rejected",
       },
       {
          id: 2342355,
