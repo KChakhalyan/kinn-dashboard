@@ -1,0 +1,12 @@
+.single {
+   display: flex;
+   width: 100%;
+   .single-container {
+      flex: 6;
+
+      .top {
+         padding: 1.25rem;
+         display: flex;
+      }
+   }
+}
