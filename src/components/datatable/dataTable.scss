@@ -1,2 +1,16 @@
 .dataTable {
+   height: 600px;
+   width: 100%;
+
+   .cellWithImg {
+      display: flex;
+      align-items: center;
+      .cellImg {
+         width: 32px;
+         height: 32px;
+         border-radius: 0.25rem;
+         margin-right: 0.5rem;
+         object-fit: cover;
+      }
+   }
 }
