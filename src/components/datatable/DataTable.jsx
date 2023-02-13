@@ -35,7 +35,7 @@ const DataTable = () => {
    ];
    return (
       <div className="dataTable">
-         <div style={{ height: "100vh", width: "100%" }}>
+         <div style={{ height: "90vh", width: "100%" }}>
             <DataGrid
                rows={rows}
                columns={columns}
