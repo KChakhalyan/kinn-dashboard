@@ -23,11 +23,15 @@ const New = () => {
                   <form>
                      <div className="form-input">
                         <label htmlFor="image">
-                           Image: <DriveFolderUploadOutlinedIcon />
+                           Image: <DriveFolderUploadOutlinedIcon className="icon" />
                         </label>
                         <input type="file" name="image" id="image" hidden />
+                     </div>
+                     <div className="form-input">
                         <label htmlFor="username">Username</label>
                         <input type="text" placeholder="johnsnow" name="username" id="username" />
+                     </div>
+                     <div className="form-input">
                         <label htmlFor="full-name">Name and Lastname</label>
                         <input
                            type="text"
@@ -35,6 +39,8 @@ const New = () => {
                            name="full-name"
                            id="full-name"
                         />
+                     </div>
+                     <div className="form-input">
                         <label htmlFor="email">Email</label>
                         <input
                            type="email"
@@ -42,14 +48,21 @@ const New = () => {
                            name="email"
                            id="email"
                         />
+                     </div>
+                     <div className="form-input">
                         <label htmlFor="password">Password</label>
                         <input type="password" name="password" id="password" />
+                     </div>
+                     <div className="form-input">
                         <label htmlFor="email">Phone</label>
                         <input type="tel" placeholder="+1(123)456-789-00" name="phone" id="phone" />
+                     </div>
+                     <div className="form-input">
                         <label htmlFor="address">Address</label>
                         <input type="text" name="address" id="address" />
+                     </div>
+                     <div className="form-input">
                         <label htmlFor="country">Chouse County</label>
-
                         <select name="country" id="country">
                            <option value="">--Please choose an option--</option>
                            <option value="usa">USA</option>
@@ -59,6 +72,8 @@ const New = () => {
                            <option value="france">France</option>
                            <option value="spain">Spain</option>
                         </select>
+                     </div>
+                     <div className="form-input">
                         <button>Add</button>
                      </div>
                   </form>
