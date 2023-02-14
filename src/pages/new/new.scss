@@ -36,6 +36,9 @@
                gap: 1.25rem;
                .form-input {
                   width: 40%;
+                  label {
+                     display: flex;
+                  }
                   input {
                      width: 100%;
                      padding: 0.75rem;
