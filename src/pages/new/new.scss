@@ -38,6 +38,11 @@
                   width: 40%;
                   label {
                      display: flex;
+                     gap: 20px;
+                     align-items: center;
+                     .icon {
+                        cursor: pointer;
+                     }
                   }
                   input {
                      width: 100%;
@@ -52,6 +57,9 @@
                      border-radius: 0.5rem;
                   }
                }
+            }
+            button {
+               width: 200px;
             }
          }
       }
