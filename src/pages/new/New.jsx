@@ -23,9 +23,9 @@ const New = () => {
                   <form>
                      <div className="form-input">
                         <label htmlFor="image">
-                           <DriveFolderUploadOutlinedIcon />
+                           Image: <DriveFolderUploadOutlinedIcon />
                         </label>
-                        <input type="file" name="image" id="image" />
+                        <input type="file" name="image" id="image" hidden />
                         <label htmlFor="username">Username</label>
                         <input type="text" placeholder="johnsnow" name="username" id="username" />
                         <label htmlFor="full-name">Name and Lastname</label>
