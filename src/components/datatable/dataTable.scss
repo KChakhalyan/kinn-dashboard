@@ -1,6 +1,26 @@
 .dataTable {
    height: 600px;
    width: 100%;
+   display: flex;
+   padding: 1rem;
+
+   .data-table-title {
+      width: 100%;
+
+      color: gray;
+      margin-bottom: 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .link {
+         font-weight: smaller;
+         text-decoration: none;
+         color: green;
+         background-color: rgba(0, 128, 0, 0.215);
+         padding: 0.616rem;
+         border-radius: 0.313rem;
+      }
+   }
 
    .cellWithImg {
       display: flex;
