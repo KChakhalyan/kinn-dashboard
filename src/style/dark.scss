@@ -48,4 +48,45 @@
          }
       }
    }
+   .dataTable {
+      .dataGrid {
+         color: #e6e6e6;
+         border-color: #333;
+      }
+      .cellWithStatus {
+         &.Active {
+            color: rgb(14, 58, 14);
+            background-color: rgb(18, 216, 18);
+         }
+         &.Pending {
+            color: rgb(72, 59, 9);
+            background-color: rgb(255, 200, 0);
+         }
+         &.Passive {
+            color: rgb(246, 241, 241);
+            background-color: rgb(255, 0, 0);
+         }
+      }
+
+      .viewButton {
+         color: #e6e6e6;
+         border: 1px solid #e6e6e6;
+         &:hover {
+            border: 1px solid rgba(43, 52, 226, 0.405);
+         }
+      }
+      .deleteButton {
+         color: #e6e6e6;
+         &:hover {
+            color: rgba(220, 20, 60, 0.826);
+            border: 1px solid white;
+         }
+      }
+   }
+   .link {
+      color: #e6e6e6;
+   }
+   input {
+      background-color: transparent;
+   }
 }
