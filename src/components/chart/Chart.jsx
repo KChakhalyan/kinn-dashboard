@@ -18,6 +18,7 @@ const Chart = ({ aspect, title }) => {
       { name: "April", Total: 950, avarage: 750 },
       { name: "May", Total: 3200, avarage: 350 },
       { name: "June", Total: 400, avarage: 500 },
+      { name: "July", Total: 350, avarage: 450 },
    ];
    return (
       <div className="chart">
