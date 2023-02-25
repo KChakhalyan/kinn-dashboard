@@ -3,6 +3,7 @@ import Login from "./pages/login/Login";
 import List from "./pages/list/List";
 import Single from "./pages/single/Single";
 import New from "./pages/new/New";
+import SystemHelth from "./components/sysHelth/SystemHelth";
 import "./style/dark.scss";
 import {
    createBrowserRouter,
@@ -43,6 +44,8 @@ function App() {
                   <Route path="/stats">
                      <Route index element={<Stats />} />
                   </Route>
+                  <Route path="/system" element={<SystemHelth />} />
+                 
                </Route>
             </Routes>
          </BrowserRouter>

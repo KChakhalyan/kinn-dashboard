@@ -1,3 +1,8 @@
 .system-helth{
+    display: flex;
     
+    .system-helth-container {
+        flex : 6;
+        color: gray;
+    }
 }
