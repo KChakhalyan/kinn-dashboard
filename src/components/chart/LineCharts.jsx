@@ -5,43 +5,43 @@ import './lineCharts.scss'
 const LineCharts = () => {
     const data = [
         {
-          name: 'Page A',
+          name: '1',
           uv: 4000,
           pv: 2400,
           amt: 2400,
         },
         {
-          name: 'Page B',
+          name: '2',
           uv: 3000,
           pv: 1398,
           amt: 2210,
         },
         {
-          name: 'Page C',
+          name: '3',
           uv: 2000,
           pv: 9800,
           amt: 2290,
         },
         {
-          name: 'Page D',
+          name: '4',
           uv: 2780,
           pv: 3908,
           amt: 2000,
         },
         {
-          name: 'Page E',
+          name: '5',
           uv: 1890,
           pv: 4800,
           amt: 2181,
         },
         {
-          name: 'Page F',
+          name: '6',
           uv: 2390,
           pv: 3800,
           amt: 2500,
         },
         {
-          name: 'Page G',
+          name: '7',
           uv: 3490,
           pv: 4300,
           amt: 2100,
@@ -69,7 +69,7 @@ const LineCharts = () => {
               <Line type="monotone" dataKey="uv" stroke="#82ca9d" />
             </LineChart>
     
-            <LineChart width={500} height={100} data={data}>
+            <LineChart width={200} height={100} data={data}>
               <CartesianGrid strokeDasharray="3 3" />
               <XAxis dataKey="name" interval="preserveStartEnd" />
               <YAxis interval="preserveStartEnd" />
@@ -78,9 +78,9 @@ const LineCharts = () => {
               <Line type="monotone" dataKey="uv" stroke="#82ca9d" />
             </LineChart>
     
-            <LineChart width={1000} height={200} data={data}>
+            <LineChart width={200} height={100} data={data}>
               <CartesianGrid strokeDasharray="3 3" />
-              <XAxis dataKey="name" interval={0} angle={30} dx={20} />
+              <XAxis dataKey="name" interval={0} angle={25} dx={20}  />
               <YAxis />
               <Legend />
               <Line type="monotone" dataKey="pv" stroke="#8884d8" activeDot={{ r: 8 }} />
