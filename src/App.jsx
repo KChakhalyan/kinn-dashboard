@@ -17,6 +17,7 @@ import { userInputs, productInputs } from "./formSource";
 import { useContext, useState } from "react";
 import { DarkModeContext } from "./context/darkModeContext";
 import Stats from "./components/Stats/Stats";
+import Settings from "./components/settings/Settings";
 
 function App() {
    const { darkMode } = useContext(DarkModeContext);
@@ -45,6 +46,7 @@ function App() {
                      <Route index element={<Stats />} />
                   </Route>
                   <Route path="/system" element={<SystemHelth />} />
+                  <Route path="/settings" element={<Settings />} />
                  
                </Route>
             </Routes>

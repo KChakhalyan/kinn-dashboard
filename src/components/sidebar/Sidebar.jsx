@@ -76,10 +76,12 @@ const Sidebar = () => {
                   <PsychologyIcon className="icon" />
                   <span>Logs</span>
                </li>
+               <Link to="/settings" style={{ textDecoration: "none" }}>
                <li>
                   <SettingsIcon className="icon" />
                   <span>Settings</span>
                </li>
+               </Link>
                <p className="title">User</p>
                <li>
                   <AccountCircleIcon className="icon" />
