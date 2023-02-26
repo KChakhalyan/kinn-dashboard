@@ -1,17 +1,15 @@
-import "./settings";
-import Navbar from '../navbar/Navbar'
-import Sidebar from '../sidebar/Sidebar'
-
+import Navbar from "../../components/navbar/Navbar";
+import "./settings.scss";
+import Sidebar from "../../components/sidebar/Sidebar";
 const Settings = () => {
-  return (
-    <div className="settings">
+   return (
+      <div className="settings">
          <Sidebar />
          <div className="settings-container">
             <Navbar />
-            {/* <LineCharts /> */}
-            settings
+            Settings
          </div>
       </div>
-  )
-}
-export default Settings
+   );
+};
+export default Settings;
